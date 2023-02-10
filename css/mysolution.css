@@ -36,3 +36,40 @@
 .ex-5-square:active{
     transform: scale(0.5)
 }
+/* ESERCIZIO 6 */
+.ex-6-img{
+    transition: filter 0.5s;
+}
+.ex-6-img:hover{
+    filter:grayscale(1);
+}
+/* ESERCIZIO 8 */
+.ex-8-img{
+    transition: all 2s;
+}
+.ex-8-img:hover{
+    filter:sepia(0.8) grayscale(0.3);
+    border-radius: 10%;
+}
+/* ESERCIZIO 9 */
+.ex-9-img{
+    transition: all 2s;
+}
+.ex-9-img:hover{
+    filter: sepia(0.8) grayscale(0.3);
+    border-radius:10%;
+    transform: scale(1.5);
+}
+/* ESERICIZIO 10 */
+.ex-10-icon{
+    animation-name: loading;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes loading{
+    0% {
+        transform: rotate(1turn);
+       }
+    }
+
